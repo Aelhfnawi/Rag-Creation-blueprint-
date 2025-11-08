@@ -12,25 +12,6 @@ If you’ve ever wanted to create your own custom knowledge-aware chatbot that a
 🧠 LLM-Powered Conversations — Uses Groq API with memory-aware context
 💾 PDF to Vector Pipeline — Automatic embedding via FAISS and Ollama
 
-🏗️ Project Overview
-backend/
-│
-├── main.py                # FastAPI entry point
-├── config.py              # Centralized app configuration & environment management
-│
-├── api/
-│   └── routes.py          # API endpoints (upload, chat, sessions, health)
-│
-├── services/
-│   ├── vector_service.py  # Handles PDF embedding, FAISS storage, and retrieval
-│   └── chat_service.py    # Runs the RAG pipeline using Groq + LangChain
-│
-├── models/
-│   └── schemas.py         # Request/response models with validation
-│
-└── utils/
-    └── helpers.py         # Reusable utility functions
-
 ⚙️ Setup Guide
 1️⃣ Clone and Navigate
 git clone https://github.com/YourUsername/rag-backend-blueprint.git
